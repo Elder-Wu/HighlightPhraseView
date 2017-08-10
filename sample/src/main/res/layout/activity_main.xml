@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.wuzhanglao.library.HighlightPhraseView
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/modify_text_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="修改字体颜色"/>
+
+        <Button
+            android:id="@+id/modify_highlight_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="修改高亮颜色"/>
+
+        <Button
+            android:id="@+id/modify_highlight_phrase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="修改高亮内容"/>
+    </LinearLayout>
+</LinearLayout>
